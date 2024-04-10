@@ -1,0 +1,9 @@
+antlr4 Expr.g4
+compile Expr*.java
+grun Expr program -gui < expressions_1.txt
+grun Expr program -gui < expressions_2.txt
+grun Expr program -gui < expressions_3.txt
+
+grun Expr program -gui
+	Escrever a expressão que quer analisar
+	Dar o comando 'Ctrl + Z'
